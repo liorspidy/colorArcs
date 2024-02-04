@@ -59,18 +59,18 @@ document.addEventListener("DOMContentLoaded", function () {
     paper.height = paper.clientHeight;
 
     const start = {
-      x: paper.width * 0.05,
-      y: paper.height * 0.95,
+      x: paper.width * 0.08,
+      y: paper.height * 0.98,
     };
 
     const end = {
-      x: paper.width * 0.95,
-      y: paper.height * 0.95,
+      x: paper.width * 0.92,
+      y: paper.height * 0.98,
     };
 
     const center = {
       x: paper.width / 2,
-      y: paper.height * 0.95,
+      y: paper.height * 0.98,
     };
 
     // The length of the base line
