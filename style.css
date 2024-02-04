@@ -1,0 +1,68 @@
+:root{
+    height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    background-color: #3a3939;
+    margin-block: 0;
+}
+
+label{
+    color: white;
+    font-size: 1.25rem;
+}
+
+.upperHUD{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upperHUD .buttons {
+    padding-inline: 4rem;
+}
+
+.upperHUD .buttons button{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.upperHUD .buttons button:hover{
+    background-color: #bdbdbd;
+    color: white;
+}
+
+.upperHUD .buttons button:active{
+    transform: scale(0.9);
+}
+
+.inputContainer{
+    display: flex;
+    margin: 16px 0;
+    gap: 10px;
+}
+
+.inputContainer input{
+    max-width: 80px;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.container{
+    border: 1px solid white;
+    display: flex;
+}
+
+#paper{
+    width: 100%;
+    height: 85vh;
+}

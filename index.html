@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+    <title>Musical arcs</title>
+  </head>
+  <body>
+    <div class="upperHUD">
+      <div class="inputs">
+        <div class="inputContainer">
+          <label for="arcsNum">Number of Arcs:</label>
+          <input type="number" value="1" id="arcsNum" name="arcsNum" min="1" />
+        </div>
+        <div class="inputContainer">
+          <label for="length">Length of Run (in minuts):</label>
+          <input type="number" value="1" id="runLength" name="runLength" />
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="start">Start</button>
+      </div>
+    </div>
+    <div class="container">
+      <canvas id="paper"></canvas>
+    </div>
+  </body>
+</html>
